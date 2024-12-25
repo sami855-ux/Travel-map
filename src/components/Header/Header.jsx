@@ -1,4 +1,3 @@
-import { Autocomplete } from "@react-google-maps/api"
 import { HiOutlineSearch } from "react-icons/hi"
 
 const Header = () => {
