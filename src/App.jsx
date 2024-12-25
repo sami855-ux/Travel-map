@@ -1,5 +1,19 @@
+import PlaceDetails from "./components/PlaceDetails/PlaceDetails"
+import Header from "./components/Header/Header"
+import List from "./components/List/List"
+import Map from "./components/Map/Map"
+import Main from "./ui/Main"
+
 const App = () => {
-  return <div className="bg-gray-800 h-16 w-full">Home</div>
+  return (
+    <>
+      <Header />
+      <Main>
+        <List />
+        <Map />
+      </Main>
+    </>
+  )
 }
 
 export default App
